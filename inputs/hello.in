@@ -2,3 +2,12 @@
 [main]
 public a: u32 = 1u32;
 b: u32 = 2u32;
+
+// When use `leo run substract` command, it will
+// input these value into the program.
+// Since we use i32 as parameter data type when
+// we declare the function, so we must follow the
+// datatype at here.
+[substract]
+public a: i32 = 4i32;
+b: i32 = 2i32;
