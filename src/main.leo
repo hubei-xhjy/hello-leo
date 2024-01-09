@@ -5,13 +5,10 @@ program hello.aleo {
         return c;
     }
 
-    // Trying to create a sub function which substract two
-    // 32 bit integer inside the function and return the
-    // result.
-    // -------------------------------
-    // Can't use 'sub' because sub is one of the keyword
-    // of `aleo` assembly language.
-    // It will cause `Failed to parse string` ERROR
+    // Attempting to create a subtraction function that subtracts two 32-bit integers within the function and returns the result.
+    // ----------------------------
+    // Unable to use 'sub' since it's a keyword in the `aleo` assembly language.
+    // Using this keyword will result in a 'Failed to parse string' ERROR.
     transition substract (public a: i32, b: i32) -> i32 {
         let c: i32 = a - b;
         return c;
