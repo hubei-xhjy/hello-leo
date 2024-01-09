@@ -15,7 +15,7 @@ To run the most basic version (as of 2024/01/09), follow these steps:
 1. Clone the repository and navigate to the directory:
 
 ```bash
-git clone https://github.com/hubei-xhjy/hello.git
+git clone https://github.com/hubei-xhjy/hello-leo.git
 cd hello
 ```
 
